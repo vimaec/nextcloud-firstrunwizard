@@ -79,10 +79,10 @@ class Personal implements ISettings {
 	 */
 	private function getClientLinks() {
 		$clients = [
-			'desktop' => $this->config->getSystemValue('customclient_desktop', $this->defaults->getSyncClientUrl()),
-			'android' => $this->config->getSystemValue('customclient_android', $this->defaults->getAndroidClientUrl()),
-			'fdroid' => $this->config->getSystemValue('customclient_fdroid', $this->defaults->getFDroidClientUrl()),
-			'ios' => $this->config->getSystemValue('customclient_ios', $this->defaults->getiOSClientUrl())
+			//'desktop' => $this->config->getSystemValue('customclient_desktop', $this->defaults->getSyncClientUrl()),
+			//'android' => $this->config->getSystemValue('customclient_android', $this->defaults->getAndroidClientUrl()),
+			//'fdroid' => $this->config->getSystemValue('customclient_fdroid', $this->defaults->getFDroidClientUrl()),
+			//'ios' => $this->config->getSystemValue('customclient_ios', $this->defaults->getiOSClientUrl())
 		];
 		return $clients;
 	}
